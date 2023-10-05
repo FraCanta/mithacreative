@@ -1,4 +1,6 @@
+import StarryBackground from "@/components/starrybackground/starryBackground";
 import Head from "next/head";
+
 
 export default function Home() {
   return (
@@ -27,8 +29,8 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <section className="w-full  flex items-center justify-center h-screen bg-mitha">
-        landing page
+      <section className="w-full  flex items-center justify-center h-screen relative ">
+        <StarryBackground />
       </section>
     </>
   );
