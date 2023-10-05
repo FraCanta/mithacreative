@@ -1,5 +1,8 @@
 
+html,body {
+  font-family: "Sofia sans";
 
+}
 
 .space {
   background: #64257E;
@@ -144,7 +147,6 @@
 .layer-text {
   width: 100%;
   text-transform: uppercase;
-  font-family: "Sofia sans";
   color: #FFF;
   font-size: 75px;
   line-height: 0.9;
