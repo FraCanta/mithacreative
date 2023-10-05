@@ -146,11 +146,11 @@
   text-transform: uppercase;
   font-family: "Sofia sans";
   color: #FFF;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 0.9;
   text-align: center;
   position: absolute;
-  bottom: 70%;
+  bottom: 65%;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -174,7 +174,7 @@
 
 .layer-paragraph {
   color: #FFF;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 0.8;
   text-align: center;
   position: absolute;
@@ -182,7 +182,7 @@
   left: 50%;
   opacity: 0;
   transform: translateX(-50%);
-  animation-delay: 2s;
+  animation-delay: 10s;
   animation: slide-up 5s ease-in-out both; /* Imposta la durata e il tipo di animazione desiderati */
 }
 
