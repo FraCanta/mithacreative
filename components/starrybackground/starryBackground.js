@@ -15,7 +15,9 @@ const StarryBackground = () => {
   <div className="stars"></div>
   <div className='layer-1'></div>
   <div className='layer-1a'></div>
-  <div className='layer-text'><h1>Stiamo arrivando</h1></div>
+
+  <div className='layer-text'><h1>Siamo in viaggio</h1></div>
+  <div className='layer-paragraph'><p>Coming soon...</p></div>
 
   <div className='layer-2'></div>
 </div>
