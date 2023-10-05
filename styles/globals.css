@@ -146,7 +146,7 @@
   text-transform: uppercase;
   font-family: "Sofia sans";
   color: #FFF;
-  font-size: 70px;
+  font-size: 75px;
   line-height: 0.9;
   text-align: center;
   position: absolute;
@@ -174,11 +174,13 @@
 
 .layer-paragraph {
   color: #FFF;
+  letter-spacing: 0.2rem;
+
   font-size: 30px;
   line-height: 0.8;
   text-align: center;
   position: absolute;
-  bottom: 50%;
+  bottom: 48%;
   left: 50%;
   opacity: 0;
   transform: translateX(-50%);
