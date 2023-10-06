@@ -5,19 +5,19 @@ html,body {
 }
 
 .space {
-  background: #64257E;
-}
-
-.galaxy {
   width: 100%; /* Imposta la larghezza desiderata per la galassia */
   height: 100%; /* Imposta l'altezza desiderata per la galassia */
   background-image: url('../public/assets/galassia.jpg'); /* Sostituisci con il percorso dell'immagine della galassia */
   background-size: cover;
+}
+
+/* .galaxy {
+ 
   background-position: center;
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 .space, .stars {
   position: absolute;
@@ -90,7 +90,7 @@ html,body {
 }
 
 .layer-1 {
-  background: url(../public/assets/astronautaweb.png) 0 100% no-repeat;
+  background: url(../public/assets/astronautaweb.webp) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   top: 40%;
@@ -104,7 +104,7 @@ html,body {
 }
 
 .layer-1a {
-  background: url(../public/assets/astrobranding.png) 0 100% no-repeat;
+  background: url(../public/assets/astrobranding.webp) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   top: 40%;
@@ -133,7 +133,7 @@ html,body {
 .layer-2 {
   -webkit-animation: parallax_fg linear 30s infinite both;
   animation: parallax_fg linear 30s infinite both;
-  background: url(../public/assets/terra.png) 0 100% no-repeat;
+  background: url(../public/assets/terra.webp) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: -20%;
@@ -182,12 +182,12 @@ html,body {
   line-height: 0.8;
   text-align: center;
   position: absolute;
-  bottom: 48%;
+  bottom: 45%;
   left: 50%;
   opacity: 0;
   transform: translateX(-50%);
-  animation-delay: 10s;
-  animation: slide-up 5s ease-in-out both; /* Imposta la durata e il tipo di animazione desiderati */
+  animation-delay: 20s;
+  animation: slide-up 5s ease-in-out both; 
 }
 
 @media screen and (max-width: 768px) {
