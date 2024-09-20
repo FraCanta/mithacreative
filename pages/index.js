@@ -1,8 +1,20 @@
-import StarryBackground from "@/components/starrybackground/starryBackground";
+import Hero from "@/components/layout/Hero";
+import Marquee from "@/components/marquee/marquee";
 import Head from "next/head";
-
+import { useEffect } from "react";
+import Lenis from "lenis";
 
 export default function Home() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
   return (
     <>
       <Head>
@@ -29,9 +41,8 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <section className="w-full  flex items-center justify-center h-screen relative ">
-        <StarryBackground />
-      </section>
+      <Hero />
+      <Marquee />
     </>
   );
 }
