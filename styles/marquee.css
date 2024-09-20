@@ -1,6 +1,5 @@
 .marquee-component {
   z-index: 3;
-  width: 150vw;
   justify-content: center;
   align-items: center;
   margin-left: -5rem;

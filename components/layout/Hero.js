@@ -1,10 +1,6 @@
 import React from "react";
-import Astronauta from "@/public/assets/astrobranding.webp";
+import Astronauta from "@/public/assets/astrobranding2.webp";
 import Image from "next/image";
-import Link from "next/link";
-import { Icon } from "@iconify/react";
-import Video from "./Video";
-import Cta from "../Cta/Cta";
 
 function Hero() {
   return (
@@ -30,7 +26,7 @@ function Hero() {
         </h1>
 
         {/* Immagine posizionata assolutamente sopra l'H1 */}
-        <div className="absolute z-10 flex items-center justify-center w-full h-full -translate-y-1/2 lg:-left-12 top-1/2">
+        <div className="absolute z-10 flex items-center justify-center w-full h-full overflow-hidden -translate-y-1/2 lg:-left-12 top-1/2 lg:overflow-visible">
           <Image
             src={Astronauta}
             width={600}
