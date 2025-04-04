@@ -7,8 +7,8 @@ export default async function mailer(req, res) {
     port: 465,
     secure: true,
     auth: {
-      user: "info@thallion-dev.it",
-      pass: "Sari_male84?",
+      user: "thali@gmail.com",
+      pass: "ghrrooipin",
     },
   });
 
